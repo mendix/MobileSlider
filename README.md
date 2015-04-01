@@ -8,7 +8,7 @@ Defining screens for your slider is as easy as setting the CSS classname "mx-sli
 ![](https://github.com/mendix/MobileSlider/blob/master/assets/slide2b.png)
 ![](https://github.com/mendix/MobileSlider/blob/master/assets/slide3b.png)
 
-You have to login as a user with the following credentials:
+We have provided a fully working Mendix test application with a default database installed. You can login as a user with the following credentials:
 
 Username: demo
 
