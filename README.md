@@ -11,6 +11,7 @@ Defining screens for your slider is as easy as setting the CSS classname "mx-sli
 You have to login as a user with the following credentials:
 
 Username: demo
+
 Password: D3moD3mo
 
 ## Contributing
