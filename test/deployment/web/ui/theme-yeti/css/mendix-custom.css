@@ -1,0 +1,38 @@
+.profile-phone,
+.profile-phone .mx-menubar-item a, 
+.profile-phone .mx-header .mx-title {
+    color: white;
+}
+
+.profile-phone .mx-name-sidebarToggle {
+    background-color: transparent;
+    border: none;
+}
+
+.profile-phone .mx-layoutcontainer-wrapper {
+    padding: 0;
+}
+
+.profile-phone .mx-header {
+    background: none;
+}
+
+.profile-phone .mx-header .mx-title {
+    font-weight: 300;
+}
+
+.profile-phone .mx-slide {
+    display: 
+}
+
+.profile-phone .mx-menubar {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.profile-phone .btn {
+    padding: 10px 14px;
+}
+
+.profile-phone .mx-button {
+    padding: 5px 10px;
+}

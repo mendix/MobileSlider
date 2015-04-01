@@ -1,0 +1,47 @@
+{
+  "Name": "ProfileService",
+  "Documentation": "",
+  "Version": 1,
+  "PublishDateTime": "Wed, 26 Mar 2014 16:21:07 GMT",
+  "ServiceGuid": "039d7fc3-9419-48b1-9233-6de183bce628",
+  "VersionGuid": "6681adab-4698-43a4-b24d-a6d5aca8b119",
+  "InstanceGuid": "",
+  "SupportedProtocols": [
+    "soap1"
+  ],
+  "HeaderAuthentication": "None",
+  "Microflows": [
+    {
+      "Name": "GetDisplayName",
+      "Documentation": "",
+      "ImageBase64": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTAw9HKhAAACmklEQVQ4T23Oa0iTURgH8PMqYq20RhhqIhYu0QwsEdtWrmYtmTpCmA6MlFlMIuimhvOSc5hZkUy8TEXLC+qHJKdSXiCwdJVLIzWwDxFlRgZhSY606N85r0Pc9IHf4bzP+T8PL2HlxXHE35lgF8dpqUYHLeutzbAZvtY219DJw8PHc3U6+1Wt1i4VicZZzyXDI7702ECPRqFY0iUnI02lQoJEssR6LhkeSdnLOdGEcGQnIVOjbUWwv6rlsTvrsTfXPDEnuDmpTXQzBHl7zy9PNWHRZuaxO+uxN9c8qaGHC6M+xnOYDf4cNvHYnfXYm0uWkMp4t3UqlG6Nn3uv278N3gTD7qy3UXa1RDs4ciGaI+VxPIUlK2pqpqcIU52lyMw3zgbdHrf5VX8Y8an42LelZPYcUf0WAnBMry+/kljO2qpX42JeAdTmtgX9qG2+eGzsh+Hts++nuq3WTTnTWnL6l9CRd6oEqlev2v2lzGRCatUDZPYPwDz9BM3Tz9Hy9SFyJptwuLljxDP9cebKyEodpOooW1JSElJVx6DQVyCxoQEpnRZo2odw1jKAjJd3KCNOmOsXtibfG+InaaUIBILJ4ODgOaVSCbZAJpNhn64U4ppy7K/qg7/+Nfbe7UJQ+yWEtWQjJLvS7pV4a8IxT16IxeK/UqkUcrmcX0C/cTzvPqLKWhFWbkWg4R0CjE/hU12CwC41AkyaP5vVBfwfCKhPbEAikawuiIyMRGFDP6IKHyH0xgRi6xcQVzeP6NpB+JuvwPOyctk93pDLFhygqqh/1CI1R72nJkUR8qxtR691+mZ0LElNMzhZQxeUvYEw3QgSEWMlwhgFzREPag8VsjF3GXdIZ9ie1mzxO9/dJzzT3uUekV9MSOgRQojHf4L6V95GpJKrAAAAAElFTkSuQmCC",
+      "Description": "",
+      "Parameters": [
+        {
+          "Name": "OpenID",
+          "Type": "String",
+          "TypeSpecification": "",
+          "SystemEntityType": ""
+        },
+        {
+          "Name": "EnvironmentPassword",
+          "Type": "String",
+          "TypeSpecification": "",
+          "SystemEntityType": ""
+        },
+        {
+          "Name": "EnvironmentUUID",
+          "Type": "String",
+          "TypeSpecification": "",
+          "SystemEntityType": ""
+        }
+      ],
+      "ReturnType": "String",
+      "SystemEntityType": "",
+      "ReturnTypeSpecification": ""
+    }
+  ],
+  "Caption": "Profile service",
+  "ImageBase64": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTAw9HKhAAACmklEQVQ4T23Oa0iTURgH8PMqYq20RhhqIhYu0QwsEdtWrmYtmTpCmA6MlFlMIuimhvOSc5hZkUy8TEXLC+qHJKdSXiCwdJVLIzWwDxFlRgZhSY606N85r0Pc9IHf4bzP+T8PL2HlxXHE35lgF8dpqUYHLeutzbAZvtY219DJw8PHc3U6+1Wt1i4VicZZzyXDI7702ECPRqFY0iUnI02lQoJEssR6LhkeSdnLOdGEcGQnIVOjbUWwv6rlsTvrsTfXPDEnuDmpTXQzBHl7zy9PNWHRZuaxO+uxN9c8qaGHC6M+xnOYDf4cNvHYnfXYm0uWkMp4t3UqlG6Nn3uv278N3gTD7qy3UXa1RDs4ciGaI+VxPIUlK2pqpqcIU52lyMw3zgbdHrf5VX8Y8an42LelZPYcUf0WAnBMry+/kljO2qpX42JeAdTmtgX9qG2+eGzsh+Hts++nuq3WTTnTWnL6l9CRd6oEqlev2v2lzGRCatUDZPYPwDz9BM3Tz9Hy9SFyJptwuLljxDP9cebKyEodpOooW1JSElJVx6DQVyCxoQEpnRZo2odw1jKAjJd3KCNOmOsXtibfG+InaaUIBILJ4ODgOaVSCbZAJpNhn64U4ppy7K/qg7/+Nfbe7UJQ+yWEtWQjJLvS7pV4a8IxT16IxeK/UqkUcrmcX0C/cTzvPqLKWhFWbkWg4R0CjE/hU12CwC41AkyaP5vVBfwfCKhPbEAikawuiIyMRGFDP6IKHyH0xgRi6xcQVzeP6NpB+JuvwPOyctk93pDLFhygqqh/1CI1R72nJkUR8qxtR691+mZ0LElNMzhZQxeUvYEw3QgSEWMlwhgFzREPag8VsjF3GXdIZ9ie1mzxO9/dJzzT3uUekV9MSOgRQojHf4L6V95GpJKrAAAAAElFTkSuQmCC",
+  "Description": ""
+}

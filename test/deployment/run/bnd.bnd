@@ -1,0 +1,7 @@
+Private-Package: system, com.mendix.core, appcloudservices, appcloudservices.actions, appcloudservices.proxies.constants, appcloudservices.proxies.microflows, com.mendix.core, inviteapi.proxies.microflows, mobileslider.proxies, mobileslider.proxies.microflows, permissionsapi.proxies, permissionsapi.proxies.microflows, profileservice.proxies, profileservice.proxies.microflows, system, system.actions, system.proxies, system.proxies.microflows, usermanagement.proxies, usermanagement.proxies.microflows
+Import-Package: *;resolution:=optional
+Service-Component: *
+Include-Resource: ../../userlib/;recursive:=true
+Bundle-ClassPath: .,axiom-api-1.2.12.jar, commons-lang-2.5.jar, commons-logging-1.1.jar, guice-2.0.jar, openid4java-0.9.8.jar
+Bundle-Name: test
+Bundle-SymbolicName: project

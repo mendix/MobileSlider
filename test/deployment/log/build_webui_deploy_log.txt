@@ -1,0 +1,14 @@
+Buildfile: C:\Projects\GitHub\MobileSlider\test\deployment\build_webui.xml
+
+deploy:
+    [unzip] Expanding: C:\Projects\GitHub\MobileSlider\test\widgets\MendixAppCloudNavigation.mpk into C:\Projects\GitHub\MobileSlider\test\deployment\web\widgets
+    [unzip] Expanding: C:\Projects\GitHub\MobileSlider\test\widgets\GreenSock.mpk into C:\Projects\GitHub\MobileSlider\test\deployment\web\widgets
+    [unzip] Expanding: C:\Projects\GitHub\MobileSlider\test\widgets\MobileSliderBackground.mpk into C:\Projects\GitHub\MobileSlider\test\deployment\web\widgets
+    [unzip] Expanding: C:\Projects\GitHub\MobileSlider\test\widgets\SprintrFeedbackWidget.mpk into C:\Projects\GitHub\MobileSlider\test\deployment\web\widgets
+    [unzip] Expanding: C:\Projects\GitHub\MobileSlider\test\widgets\MobileSlider.mpk into C:\Projects\GitHub\MobileSlider\test\deployment\web\widgets
+     [copy] Copying 13 files to C:\Projects\GitHub\MobileSlider\test\deployment\web
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+

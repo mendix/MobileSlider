@@ -1,0 +1,22 @@
+Buildfile: C:\Projects\GitHub\MobileSlider\test\deployment\build_core.xml
+
+compile:
+    [javac] Compiling 2 source files to C:\Projects\GitHub\MobileSlider\test\deployment\run\bin
+    [javac] Note: C:\Projects\GitHub\MobileSlider\test\javasource\com\mendix\core\Core.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: C:\Projects\GitHub\MobileSlider\test\javasource\com\mendix\core\Core.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+build:
+      [bnd] # addAll 'deployment/run/bnd.bnd' with ,
+      [bnd] Warnings
+      [bnd]  Split package, multiple jars provide the same package:com/mendix/core
+      [bnd] Use Import/Export Package directive -split-package:=(merge-first|merge-last|error|first) to get rid of this warning
+      [bnd] Package found in   [Jar:mxruntime, Jar:run]
+      [bnd] Class path         [Jar:biz.aQute.bnd.annotation, Jar:org.scala-lang.scala-library, Jar:json, Jar:logging, Jar:m2ee-api, Jar:mxruntime, Jar:integration, Jar:osgi.cmpn, Jar:webui, Jar:javax.servlet, Jar:axiom-api-1.2.12, Jar:commons-lang-2.5, Jar:commons-logging-1.1, Jar:guice-2.0, Jar:openid4java-0.9.8, Jar:run]
+      [bnd] # project (project.jar) 68 
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+
+

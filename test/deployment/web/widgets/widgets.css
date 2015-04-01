@@ -1,0 +1,68 @@
+﻿ .greensock {
+
+ }
+.greensock-message {
+
+}
+
+#mx-slider-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+#mx-slider-background-layer {
+    position: relative;
+}
+.mobileslider {
+    overflow: hidden;
+}
+
+.mx-slide {
+    float: left;
+    position: relative;
+    padding: 15px;
+}
+
+.mx-slides-viewport {
+    position: relative;
+    float: left;
+}
+
+.mx-slide-image {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mx-slide-dots {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 26px;
+    left: 0;
+}
+
+.mx-slide-dot-around {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mx-slide-dot {
+	display:inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 200px;
+	background-color:rgba(255,255,255,0.3);
+	background-image:none;
+	-webkit-transition: 0.25s;
+	-moz-transition: 0.25s;
+	-o-transition: 0.25s;
+	transition: 0.25s;
+}
+
+.mx-slide-dot.active {
+	Background-color:rgba(255,255,255,1);
+}
+

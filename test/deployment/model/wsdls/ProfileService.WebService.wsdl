@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.example.com/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" name="ProfileService" targetNamespace="http://www.example.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.example.com/">
+      <xsd:element name="GetDisplayName">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="OpenID" type="xsd:string" />
+            <xsd:element name="EnvironmentPassword" type="xsd:string" />
+            <xsd:element name="EnvironmentUUID" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetDisplayNameResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Result" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="GetDisplayNameRequest">
+    <wsdl:part name="parameters" element="tns:GetDisplayName" />
+  </wsdl:message>
+  <wsdl:message name="GetDisplayNameResponse">
+    <wsdl:part name="result" element="tns:GetDisplayNameResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ProfileServicePortType">
+    <wsdl:operation name="GetDisplayName">
+      <wsdl:documentation>
+      </wsdl:documentation>
+      <wsdl:input message="tns:GetDisplayNameRequest" />
+      <wsdl:output message="tns:GetDisplayNameResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ProfileServiceSoap" type="tns:ProfileServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDisplayName">
+      <soap:operation soapAction="http://www.example.com/GetDisplayName" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ProfileService">
+    <wsdl:port name="ProfileServicePort" binding="tns:ProfileServiceSoap">
+      <soap:address location="http://localhost:8080/ws/ProfileService/1/soap1" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
