@@ -8,7 +8,7 @@ Defining screens for your slider is as easy as setting the CSS classname "mx-sli
 ![](https://github.com/mendix/MobileSlider/blob/master/assets/slide2b.png)
 ![](https://github.com/mendix/MobileSlider/blob/master/assets/slide3b.png)
 
-You can login with the default mxadmin username and password.
+This project has a mendix test project inside where you can login with the default mxadmin username and password and see the mobile slider in action.
 
 ## Contributing
 
