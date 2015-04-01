@@ -5,9 +5,9 @@ This mobile slider widget will give your mendix hybrid mobile application a catc
 You are able to slide in between screens.
 Defining screens for your slider is as easy as setting the CSS classname "mx-slide" on a container inside a mendix page.
 
-![](https://github.com/mendix/MobileSlider/master/assets/slide1.PNG)
-![](https://github.com/mendix/MobileSlider/master/assets/slide2.PNG)
-![](https://github.com/mendix/MobileSlider/master/assets/slide3.PNG)
+![](https://github.com/mendix/MobileSlider/master/assets/slide1.png)
+![](https://github.com/mendix/MobileSlider/master/assets/slide2.png)
+![](https://github.com/mendix/MobileSlider/master/assets/slide3.png)
 
 ## Contributing
 
