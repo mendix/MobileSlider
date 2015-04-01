@@ -4,9 +4,9 @@ This mobile slider widget and module will give your mendix hybrid mobile applica
 You are able to slide in between screens.
 Defining screens for your slider is as easy as setting the CSS classname "mx-slide" on a container inside a mendix page.
 
-![](https://github.com/mendix/MobileSlider/blob/master/assets/slide1a.png)
-![](https://github.com/mendix/MobileSlider/blob/master/assets/slide2a.png)
-![](https://github.com/mendix/MobileSlider/blob/master/assets/slide3a.png)
+![](https://github.com/mendix/MobileSlider/blob/master/assets/slide1b.png)
+![](https://github.com/mendix/MobileSlider/blob/master/assets/slide2b.png)
+![](https://github.com/mendix/MobileSlider/blob/master/assets/slide3b.png)
 
 ## Contributing
 
