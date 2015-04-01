@@ -1,7 +1,6 @@
 # Mobile Slider Widget 
 
-This mobile slider widget will give your mendix hybrid mobile application a catchy interface.
-
+This mobile slider widget and module will give your mendix hybrid mobile application a catchy interface.
 You are able to slide in between screens.
 Defining screens for your slider is as easy as setting the CSS classname "mx-slide" on a container inside a mendix page.
 
